@@ -1,0 +1,23 @@
+﻿<Window x:Class="Projekt.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Projekt"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="Wheat">
+        
+        <Image HorizontalAlignment="Left" Height="100" Margin="86,60,0,0" VerticalAlignment="Top" Width="100"/>
+        <Image HorizontalAlignment="Right" Height="83" Margin="0,26,453.6,0" VerticalAlignment="Top" Width="311" Source="logo.png"/>
+        <Button Content="Szukaj" HorizontalAlignment="Left" Margin="147,253,0,0" VerticalAlignment="Top" Width="75" Click="Szukaj" RenderTransformOrigin="-0.374,-0.445" Background="BurlyWood"/>
+        <TextBox x:Name="przystanek1" HorizontalAlignment="Left" Height="23" Margin="29,188,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Background="OldLace"/>
+        <TextBox x:Name="przystanek2" HorizontalAlignment="Left" Height="23" Margin="220,188,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" RenderTransformOrigin="1.417,0.522" Background="OldLace"/>
+        <ListBox x:Name="Rozklad" HorizontalAlignment="Left"  Height="400" Margin="391,10,0,0" VerticalAlignment="Top" Width="393" SelectionChanged="ListBox_SelectionChanged" Background="OldLace"/>
+        <Label Content="" HorizontalAlignment="Left" Margin="86,160,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="panel" Content="Panel administracyjny" HorizontalAlignment="Left" Margin="10,390,0,0" VerticalAlignment="Top" Width="143" Click="admin" Background="BurlyWood"/>
+        <Label Content="Przejazd z" HorizontalAlignment="Left" Margin="52,165,0,0" VerticalAlignment="Top"/>
+        <Label Content="Przejazd do" HorizontalAlignment="Left" Margin="249,165,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

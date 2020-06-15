@@ -1,0 +1,5 @@
+Nazwa przystanku: maciewska
+Nazwa przystanku końcowego: dworska
+Numer tramwaju: 12
+Godzina odjazdu: 32
+====================================

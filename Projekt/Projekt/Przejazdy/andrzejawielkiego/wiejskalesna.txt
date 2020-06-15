@@ -1,0 +1,5 @@
+Nazwa przystanku: andrzeja
+Nazwa przystanku końcowego: wielkiego
+Numer tramwaju: 12
+Godzina odjazdu: 123
+====================================

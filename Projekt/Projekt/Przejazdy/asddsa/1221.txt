@@ -1,0 +1,5 @@
+Nazwa przystanku: asd
+Nazwa przystanku końcowego: dsa
+Numer tramwaju: 123
+Godzina odjazdu: 12321
+====================================
